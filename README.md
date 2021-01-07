@@ -4,6 +4,10 @@ This repository contains the code for the paper "Neural Blockmodeling for Multil
 
 ## Installation
 
+First, unpack the datasets using:
+
+``unzip datasets.zip``
+
 The code for our method was ran using Python version 3.6.12 along with the packages listed in ``requirements.txt``. To install these packages, run:
 
 ``pip install -r requirements.txt``
