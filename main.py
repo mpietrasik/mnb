@@ -58,7 +58,7 @@ if __name__ == '__main__':
     argument_parser.add_argument('-k', '-K', help='Integer value of the K hyperparameter (default = 4)', default=4, type=int)
     argument_parser.add_argument('-t', '--task', help='Task to be performed. Choose from: link_prediction, node_classification, community_detection. (default = link_prediction)', default='link_prediction', choices=['link_prediction', 'node_classification', 'community_detection'])
     argument_parser.add_argument('-s', '--split', help='Float value of training split size (default = 0.8)', default=0.8, type=float)
-    argument_parser.add_argument('-p', '--epochs', help='Int value of number of epochs (default = 1000)', default=1000, type=int)    
+    argument_parser.add_argument('-p', '--epochs', help='Integer value of number of epochs (default = 1000)', default=1000, type=int)    
     argument_parser.add_argument('-v', '--save', help='Flag indicating whether to save trained model, embeddings, and community memberships', action='store_true')
     arguments = argument_parser.parse_args()
 
